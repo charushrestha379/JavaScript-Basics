@@ -8,3 +8,7 @@ console.log(Number(x) + y) // explicit coercion, x is converted to a number
 console.log(parseInt(z) + y) //15
 console.log(parseFloat(a) + y) //32.4
 console.log(String(x) + y)
+console.log(x.toString()) //converts x to a string
+
+// Type coercion: automatic type change by JS (e.g., '5' + 1 = '51')
+// Type conversion: manual type change by developer (e.g., Number('5') + 1 = 6)
